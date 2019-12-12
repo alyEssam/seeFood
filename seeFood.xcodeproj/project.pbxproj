@@ -13,6 +13,7 @@
 		66A8263B23A03501007CAF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A8263923A03501007CAF82 /* Main.storyboard */; };
 		66A8263D23A03511007CAF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A8263C23A03511007CAF82 /* Assets.xcassets */; };
 		66A8264023A03511007CAF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A8263E23A03511007CAF82 /* LaunchScreen.storyboard */; };
+		66A8264923A0357C007CAF82 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 66A8264823A0357C007CAF82 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		66A8263C23A03511007CAF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A8263F23A03511007CAF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A8264123A03511007CAF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A8264823A0357C007CAF82 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				66A8263C23A03511007CAF82 /* Assets.xcassets */,
 				66A8263E23A03511007CAF82 /* LaunchScreen.storyboard */,
 				66A8264123A03511007CAF82 /* Info.plist */,
+				66A8264823A0357C007CAF82 /* Inceptionv3.mlmodel */,
 			);
 			path = seeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A8263823A03501007CAF82 /* ViewController.swift in Sources */,
+				66A8264923A0357C007CAF82 /* Inceptionv3.mlmodel in Sources */,
 				66A8263423A03501007CAF82 /* AppDelegate.swift in Sources */,
 				66A8263623A03501007CAF82 /* SceneDelegate.swift in Sources */,
 			);
